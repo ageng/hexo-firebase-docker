@@ -21,7 +21,7 @@ deploy:
     script:
         # build site
         - cd ${CI_PROJECT_DIR}
-	- rm -rf node_modules && npm install --force
+        - rm -rf node_modules && npm install --force
         - hexo generate
         # upload
         - firebase deploy --only hosting --token ${FIREBASE_TOKEN}
