@@ -1,4 +1,4 @@
-FROM node:12-alpine
+FROM node:lts-alpine3.13
 
 # labels
 LABEL maintainer="me@ageng.my.id"
