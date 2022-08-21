@@ -1,7 +1,7 @@
-FROM node:lts-alpine3.14
+FROM public.ecr.aws/docker/library/node:lts-alpine3.16
 
 # labels
-LABEL maintainer="me@ageng.my.id"
+LABEL maintainer="mail@seni.one"
 
 # install hugo and firebase
 RUN set -x && \
