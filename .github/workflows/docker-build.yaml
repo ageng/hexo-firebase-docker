@@ -26,5 +26,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: isenganime/hugofirebase:latest
+          tags: isenganime/hexofirebase:latest
           labels: ${{ steps.meta.outputs.label }}
