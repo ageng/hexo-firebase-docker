@@ -1,4 +1,4 @@
-FROM public.ecr.aws/docker/library/node:lts-alpine3.16
+FROM node:lts-alpine3.16
 
 # labels
 LABEL maintainer="mail@seni.one"
